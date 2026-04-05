@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" sizes="any">
+    <link rel="apple-touch-icon" href="images/favicon.svg">
+    <link rel="canonical" href="https://www.caro-fisio.com/tips.html">
+    <!-- YouTube embeds need a non-empty referrer; avoids Error 153 in many setups -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Ejercicios de rehabilitación — Carolina Esquivel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages/tips.css">
+</head>
+<body class="page-tips">
+    <header class="nav-top" aria-label="Sitio">
+        <a href="index.html#home" class="nav-brand">
+            <img src="images/logo.svg" alt="" class="nav-logo" width="336" height="192" decoding="async">
+            <span class="nav-brand-text">Carolina Esquivel</span>
+        </a>
+        <a href="index.html" class="nav-tips-corner">Sitio</a>
+    </header>
+
+    <button type="button" class="menu-button" aria-label="Abrir menú de secciones" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="nav-rail" aria-label="Secciones">
+        <ul class="nav-rail-list nav-section-links">
+            <li><a href="#ejercicios">Ejercicios</a></li>
+            <li><a href="#postura">Postura</a></li>
+            <li><a href="#ergonomia">Entorno</a></li>
+            <li><a href="#rehabilitacion">Recuperación</a></li>
+            <li><a href="index.html" class="nav-rail-home">Sitio</a></li>
+        </ul>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="nav-rail-list nav-section-links">
+            <li><a href="#ejercicios">Ejercicios</a></li>
+            <li><a href="#postura">Postura</a></li>
+            <li><a href="#ergonomia">Entorno</a></li>
+            <li><a href="#rehabilitacion">Recuperación</a></li>
+            <li><a href="index.html" class="nav-rail-home">Sitio</a></li>
+        </ul>
+    </div>
+
+    <section class="hero" id="home" aria-labelledby="tips-hero-title">
+        <div class="hero-video-bg" aria-hidden="true">
+            <video class="hero-video active" autoplay muted loop playsinline>
+                <source src="videos/video1.mp4" type="video/mp4">
+            </video>
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="videos/video2.mp4" type="video/mp4">
+            </video>
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="videos/video3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-video-overlay" aria-hidden="true"></div>
+        <p class="hero-mega" aria-hidden="true">Movimiento</p>
+        <div class="hero-inner container">
+            <div class="hero-copy hero-copy--tips">
+                <h1 id="tips-hero-title" class="hero-title">Ejercicios para rehabilitación</h1>
+                <p class="hero-role hero-role--tips">Guía práctica</p>
+                <p class="hero-tagline hero-tagline--tips">Videos y consejos para acompañar tu recuperación en casa: ritmo suave, progresión clara y, ante cualquier duda, consultá con tu fisioterapeuta.</p>
+                <div class="hero-actions">
+                    <a href="#ejercicios" class="cta-button cta-button--hero cta-button--tips-solid">Lista de ejercicios</a>
+                    <a href="#aviso" class="cta-button cta-button--hero cta-button--tips-outline">Uso responsable</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="ejercicios" aria-labelledby="ejercicios-title">
+            <div class="container container--editorial">
+                <header class="section-head tips-animate-head">
+                    <p class="eyebrow">En casa</p>
+                    <h2 id="ejercicios-title" class="heading-serif heading-serif--dark">Ejercicios suaves</h2>
+                    <p class="tips-section-lead">Rutinas cortas para activar el cuerpo sin equipamiento: core estable, articulaciones móviles y bases para el día a día.</p>
+                </header>
+                <div class="tips-grid">
+                    <article class="tip-card">
+                        <div class="tip-video">
+                            <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/QeADCvQ5Pkc" title="Ejercicios de estabilidad central" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="tip-text">
+                            <h3>Estabilidad central</h3>
+                            <p>Activación suave del tronco para apoyar la columna y mejorar el control en movimientos cotidianos.</p>
+                            <a href="#" class="read-more" data-modal="modal-core">Ver ejercicio</a>
+                        </div>
+                    </article>
+                    <article class="tip-card">
+                        <div class="tip-video">
+                            <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/N8iG4-VvJ-s" title="Movilidad articular" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="tip-text">
+                            <h3>Movilidad articular</h3>
+                            <p>Movimientos amplios y sin dolor para mantener articulaciones fluidas en la rehabilitación.</p>
+                            <a href="#" class="read-more" data-modal="modal-flexibilidad">Ver ejercicio</a>
+                        </div>
+                    </article>
+                    <article class="tip-card">
+                        <div class="tip-video">
+                            <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/kVWLzYvXK-Q" title="Alineación y postura" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="tip-text">
+                            <h3>Alineación cotidiana</h3>
+                            <p>Pequeños ajustes de postura que suman cuando estás en proceso de recuperación.</p>
+                            <a href="#" class="read-more" data-modal="modal-postura">Ver ejercicio</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="postura" class="section-alt" aria-labelledby="postura-title">
+            <div class="container container--editorial">
+                <header class="section-head tips-animate-head">
+                    <p class="eyebrow">Cuerpo alineado</p>
+                    <h2 id="postura-title" class="heading-serif heading-serif--dark">Postura en el día a día</h2>
+                    <p class="tips-section-lead">Buenos hábitos posturales reducen carga sobre músculos y articulaciones, especialmente si estás reincorporándote al trabajo o al deporte.</p>
+                </header>
+                <div class="tips-grid">
+                    <article class="tip-card">
+                        <div class="tip-video">
+                            <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/dpINVkpdydg" title="Postura en el trabajo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="tip-text">
+                            <h3>En el trabajo</h3>
+                            <p>Distribución de pesos y posición de pantalla para largas jornadas sentado o de pie.</p>
+                            <a href="#" class="read-more" data-modal="modal-postura-trabajo">Ver ejercicio</a>
+                        </div>
+                    </article>
+                    <article class="tip-card">
+                        <div class="tip-video">
+                            <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/gn0A2j3PYJs" title="Corrección postural" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="tip-text">
+                            <h3>Corrección gradual</h3>
+                            <p>Ejercicios suaves para equilibrar cadenas musculares y mejorar la alineación.</p>
+                            <a href="#" class="read-more" data-modal="modal-correccion-postural">Ver ejercicio</a>
+                        </div>
+                    </article>
+                    <article class="tip-card">
+                        <div class="tip-video">
+                            <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/Yns17dpx2wQ" title="Descanso y postura" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="tip-text">
+                            <h3>Al descansar</h3>
+                            <p>Posiciones y soporte cervical que ayudan a recuperar tejidos durante el sueño.</p>
+                            <a href="#" class="read-more" data-modal="modal-postura-dormir">Ver ejercicio</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="ergonomia" aria-labelledby="ergonomia-title">
+            <div class="container container--editorial">
+                <header class="section-head tips-animate-head">
+                    <p class="eyebrow">Tu entorno</p>
+                    <h2 id="ergonomia-title" class="heading-serif heading-serif--dark">Espacio de trabajo y pausas</h2>
+                    <p class="tips-section-lead">Adaptar el escritorio, la silla y los ritmos de pausa favorece la rehabilitación y evita recaídas por sobrecarga.</p>
+                </header>
+                <div class="tips-grid">
+                    <article class="tip-card">
+                        <div class="tip-video">
+                            <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/x5BI-dPT8GI" title="Ergonomía en oficina" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="tip-text">
+                            <h3>Oficina u oficina en casa</h3>
+                            <p>Alturas recomendadas y distancias para teclado, mouse y monitor.</p>
+                            <a href="#" class="read-more" data-modal="modal-ergonomia-oficina">Ver ejercicio</a>
+                        </div>
+                    </article>
+                    <article class="tip-card">
+                        <div class="tip-video">
+                            <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/EbgkuczJ3jY" title="Pausas activas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="tip-text">
+                            <h3>Pausas activas</h3>
+                            <p>Micro-ejercicios cada hora para circulación y para cambiar posturas fijas.</p>
+                            <a href="#" class="read-more" data-modal="modal-pausas-activas">Ver ejercicio</a>
+                        </div>
+                    </article>
+                    <article class="tip-card">
+                        <div class="tip-video">
+                            <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/QBB_mXslDOw" title="Ergonomía en el hogar" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="tip-text">
+                            <h3>En el hogar</h3>
+                            <p>Cómo ordenar superficies y tareas domésticas para cuidar espalda y articulaciones.</p>
+                            <a href="#" class="read-more" data-modal="modal-ergonomia-casa">Ver ejercicio</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="rehabilitacion" class="section-alt" aria-labelledby="rehabilitacion-title">
+            <div class="container container--editorial">
+                <header class="section-head tips-animate-head">
+                    <p class="eyebrow">Por edad y zona</p>
+                    <h2 id="rehabilitacion-title" class="heading-serif heading-serif--dark">Recuperación guiada</h2>
+                    <p class="tips-section-lead">Referencias generales por zona corporal y edad. No sustituyen una valoración personalizada: usalos como guía y avanzá solo dentro de tu tolerancia.</p>
+                </header>
+
+                <div class="rehab-category">
+                    <header class="section-head section-head--sub tips-animate-head">
+                        <h3 class="heading-serif heading-serif--dark rehab-block-title" id="rehab-adultos">Adultos</h3>
+                    </header>
+                    <div class="rehab-grid">
+                        <article class="rehab-card">
+                            <div class="rehab-video">
+                                <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/YQQfhILVR7c" title="Dolor lumbar" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="rehab-content">
+                                <div class="rehab-tags">
+                                    <span class="rehab-tag age-adult">Adultos</span>
+                                    <span class="rehab-tag">Columna</span>
+                                </div>
+                                <h3>Dolor lumbar</h3>
+                                <p>Movilizaciones suaves y activación de glúteos y abdomen en fases iniciales de recuperación.</p>
+                                <a href="#" class="rehab-info" data-modal="modal-lumbar">Ver ejercicio</a>
+                            </div>
+                        </article>
+                        <article class="rehab-card">
+                            <div class="rehab-video">
+                                <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/SedjBjz9zYg" title="Túnel carpiano" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="rehab-content">
+                                <div class="rehab-tags">
+                                    <span class="rehab-tag age-adult">Adultos</span>
+                                    <span class="rehab-tag">Muñeca</span>
+                                </div>
+                                <h3>Túnel carpiano</h3>
+                                <p>Movilidad de muñeca y deslizamiento de nervio con amplitud cómoda y sin hormigueo intenso.</p>
+                                <a href="#" class="rehab-info" data-modal="modal-tunel-carpiano">Ver ejercicio</a>
+                            </div>
+                        </article>
+                        <article class="rehab-card">
+                            <div class="rehab-video">
+                                <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/Vx0PSz_wGF4" title="Hombro" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="rehab-content">
+                                <div class="rehab-tags">
+                                    <span class="rehab-tag age-adult">Adultos</span>
+                                    <span class="rehab-tag">Hombro</span>
+                                </div>
+                                <h3>Hombro y tendón</h3>
+                                <p>Progresión de rango y control del escápula antes de cargas mayores.</p>
+                                <a href="#" class="rehab-info" data-modal="modal-tendinitis">Ver ejercicio</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="rehab-category">
+                    <header class="section-head section-head--sub tips-animate-head">
+                        <h3 class="heading-serif heading-serif--dark rehab-block-title" id="rehab-ninos">Niños y adolescentes</h3>
+                    </header>
+                    <div class="rehab-grid">
+                        <article class="rehab-card">
+                            <div class="rehab-video">
+                                <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/X9W3P_-eS_E" title="Tobillo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="rehab-content">
+                                <div class="rehab-tags">
+                                    <span class="rehab-tag age-child">Niños</span>
+                                    <span class="rehab-tag">Tobillo</span>
+                                </div>
+                                <h3>Esguince de tobillo</h3>
+                                <p>Recuperación de equilibrio y propiocepción con juegos y tareas sencillas.</p>
+                                <a href="#" class="rehab-info" data-modal="modal-esguince">Ver ejercicio</a>
+                            </div>
+                        </article>
+                        <article class="rehab-card">
+                            <div class="rehab-video">
+                                <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/jCGZ0GzLCu8" title="Rodilla" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="rehab-content">
+                                <div class="rehab-tags">
+                                    <span class="rehab-tag age-child">Niños</span>
+                                    <span class="rehab-tag">Rodilla</span>
+                                </div>
+                                <h3>Rodilla</h3>
+                                <p>Fortalecimiento de cuádriceps y control de valgo en contexto deportivo escolar.</p>
+                                <a href="#" class="rehab-info" data-modal="modal-rodilla">Ver ejercicio</a>
+                            </div>
+                        </article>
+                        <article class="rehab-card">
+                            <div class="rehab-video">
+                                <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/L5JuNBdAG6Q" title="Postura infantil" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="rehab-content">
+                                <div class="rehab-tags">
+                                    <span class="rehab-tag age-child">Niños</span>
+                                    <span class="rehab-tag">Columna</span>
+                                </div>
+                                <h3>Postura y pantallas</h3>
+                                <p>Hábitos y ejercicios lúdicos para contrarrestar posturas prolongadas.</p>
+                                <a href="#" class="rehab-info" data-modal="modal-postura-ninos">Ver ejercicio</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aviso" class="section-dark page-tips-disclaimer" aria-labelledby="disclaimer-title">
+            <div class="container container--editorial">
+                <header class="section-head">
+                    <p class="eyebrow eyebrow--on-dark">Importante</p>
+                    <h2 id="disclaimer-title" class="heading-serif heading-serif--light">Uso responsable</h2>
+                </header>
+                <p class="tips-disclaimer-text">Estos materiales son educativos y no reemplazan consulta ni tratamiento individual. Ante dolor agudo, pérdida de fuerza, hormigueo o fiebre, consultá a un profesional de salud. Carolina Esquivel no se responsabiliza por el uso que se haga de esta información sin supervisión.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="images/logo.svg" alt="" class="footer-logo" width="336" height="192" decoding="async">
+                <p class="footer-copy">&copy; 2026 Carolina Esquivel — Ejercicios de rehabilitación</p>
+            </div>
+            <nav class="footer-nav" aria-label="Pie de página">
+                <a href="index.html#home">Inicio</a>
+                <a href="#ejercicios">Ejercicios</a>
+                <a href="index.html#contact">Contacto</a>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Modales -->
+    <div class="modal" id="modal-core" role="dialog" aria-modal="true" aria-labelledby="modal-core-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-core-title">Estabilidad central</h2>
+            <div class="modal-text">
+                <h3>¿Para qué sirve?</h3>
+                <p>Un core activo ayuda a:</p>
+                <ul>
+                    <li>Distribuir mejor las cargas sobre la columna</li>
+                    <li>Mejorar equilibrio al caminar o subir escaleras</li>
+                    <li>Prevenir compensaciones dolorosas en brazos o cuello</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Consejos</h4>
+                    <ul>
+                        <li>2–3 sesiones cortas por semana</li>
+                        <li>Respiración fluida, sin contener el aire</li>
+                        <li>Aumentá la dificultad solo si no hay dolor</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-flexibilidad" role="dialog" aria-modal="true" aria-labelledby="modal-flex-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-flex-title">Movilidad articular</h2>
+            <div class="modal-text">
+                <h3>Beneficios</h3>
+                <p>La movilidad suave colabora con:</p>
+                <ul>
+                    <li>Menor rigidez tras periodos de inmovilización</li>
+                    <li>Mejor calidad de marcha y transferencias</li>
+                    <li>Menor sensación de tensión muscular</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Cómo practicarlo</h4>
+                    <ul>
+                        <li>Movimientos lentos, sin rebotes</li>
+                        <li>Repeticiones cómodas, sin competir con el dolor</li>
+                        <li>Ideal tras una breve caminata o ducha tibia</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-postura" role="dialog" aria-modal="true" aria-labelledby="modal-postura-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-postura-title">Alineación cotidiana</h2>
+            <div class="modal-text">
+                <h3>En rehabilitación</h3>
+                <p>Una postura consciente ayuda a:</p>
+                <ul>
+                    <li>Reducir picos de dolor al sentarse o cargar peso</li>
+                    <li>Facilitar la respiración y la relajación</li>
+                    <li>Mantener el trabajo muscular equilibrado</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Recordatorios</h4>
+                    <ul>
+                        <li>Revisá escritorio y altura de asiento</li>
+                        <li>Pausas breves cada 45–60 minutos</li>
+                        <li>Pantalla a altura de ojos aproximada</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-postura-trabajo" role="dialog" aria-modal="true" aria-labelledby="modal-pt-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-pt-title">Postura en el trabajo</h2>
+            <div class="modal-text">
+                <h3>Objetivo</h3>
+                <p>Reducir sobrecarga en cuello, espalda y muñecas durante la jornada.</p>
+                <ul>
+                    <li>Apoyo de pies en el suelo o reposapiés</li>
+                    <li>Antebrazos paralelos al suelo al teclar</li>
+                    <li>Evitar llevar el cuello hacia adelante de forma prolongada</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Rutina</h4>
+                    <ul>
+                        <li>Cada 2 h: estirar cuello y hombros 1–2 minutos</li>
+                        <li>Cambiar de postura sentado/de pie si es posible</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-correccion-postural" role="dialog" aria-modal="true" aria-labelledby="modal-cp-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-cp-title">Corrección gradual</h2>
+            <div class="modal-text">
+                <h3>Enfoque</h3>
+                <p>Combinar estiramientos frontales del cuerpo con fortalecimiento de espalda y glúteos.</p>
+                <ul>
+                    <li>Apertura de pectorales suave</li>
+                    <li>Activación de dorsales y trapecio medio</li>
+                    <li>Glúteo medio para estabilidad de cadera</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Frecuencia</h4>
+                    <ul>
+                        <li>3–4 días por semana, series cortas</li>
+                        <li>Priorizá calidad de movimiento sobre cantidad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-postura-dormir" role="dialog" aria-modal="true" aria-labelledby="modal-pd-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-pd-title">Al descansar</h2>
+            <div class="modal-text">
+                <h3>Descanso y tejidos</h3>
+                <ul>
+                    <li>Colchón de firmeza media suele funcionar bien en muchos casos</li>
+                    <li>Almohada que mantenga el cuello alineado con el tronco</li>
+                    <li>Evitar boca abajo si molesta el cuello o la lumbar</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Nota</h4>
+                    <ul>
+                        <li>La mejor postura es la que te deja dormir sin dolor recurrente</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-ergonomia-oficina" role="dialog" aria-modal="true" aria-labelledby="modal-eo-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-eo-title">Oficina u oficina en casa</h2>
+            <div class="modal-text">
+                <h3>Checklist breve</h3>
+                <ul>
+                    <li>Monitor a un brazo de distancia, borde superior a ojos o ligeramente más bajo</li>
+                    <li>Rodillas a 90° con muslos apoyados</li>
+                    <li>Luz lateral o difusa para no forzar la vista</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Extras</h4>
+                    <ul>
+                        <li>Documentos al mismo nivel que la pantalla si copiás mucho texto</li>
+                        <li>Ratón y teclado alineados con el hombro</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-pausas-activas" role="dialog" aria-modal="true" aria-labelledby="modal-pa-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-pa-title">Pausas activas</h2>
+            <div class="modal-text">
+                <h3>Ideas rápidas</h3>
+                <ul>
+                    <li>Círculos de tobillos y flexo-extensión de rodillas sentado</li>
+                    <li>Hombros hacia atrás y abajo, 10 repeticiones</li>
+                    <li>Mirar a lo lejos 20 segundos cada 20 minutos de pantalla</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Duración</h4>
+                    <ul>
+                        <li>1–3 minutos bastan para cambiar la carga tisular</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-ergonomia-casa" role="dialog" aria-modal="true" aria-labelledby="modal-ec-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-ec-title">En el hogar</h2>
+            <div class="modal-text">
+                <h3>Prevención</h3>
+                <ul>
+                    <li>Acercar la carga al cuerpo antes de levantar</li>
+                    <li>Flexionar rodillas y mantener objetos cerca del tronco</li>
+                    <li>Evitar torsiones repetidas de la columna al limpiar</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Organización</h4>
+                    <ul>
+                        <li>Objetos pesados entre cintura y pecho</li>
+                        <li>Taburete para no forzar hombros en estantes altos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-lumbar" role="dialog" aria-modal="true" aria-labelledby="modal-lumbar-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-lumbar-title">Dolor lumbar</h2>
+            <div class="modal-text">
+                <h3>Ejemplos de ejercicios suaves</h3>
+                <ul>
+                    <li>Movilización pélvica en decúbito o cuadrupedia</li>
+                    <li>Estiramiento de glúteo o cadena posterior sin dolor agudo</li>
+                    <li>Activación de transverso y multífidos con respiración</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Precaución</h4>
+                    <ul>
+                        <li>Suspendé si hay irradiación fuerte a pierna o entumecimiento</li>
+                        <li>Consultá si el dolor empeora en reposo o de noche</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-tunel-carpiano" role="dialog" aria-modal="true" aria-labelledby="modal-tc-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-tc-title">Túnel carpiano</h2>
+            <div class="modal-text">
+                <h3>Línea general</h3>
+                <p>Movilidad tendinosa y del nervio mediano con amplitud cómoda, sin forzar el hormigueo.</p>
+                <ul>
+                    <li>Deslizamientos de tendones con dedos relajados</li>
+                    <li>Extensión suave de muñeca con antebrazo apoyado</li>
+                    <li>Estiramientos de antebrazo extensor y flexor</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Importante</h4>
+                    <ul>
+                        <li>Evitar cargas repetitivas en máxima flexión o extensión</li>
+                        <li>Valoración médica si el hormigueo nocturno persiste</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-tendinitis" role="dialog" aria-modal="true" aria-labelledby="modal-th-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-th-title">Hombro y tendón</h2>
+            <div class="modal-text">
+                <h3>Fases</h3>
+                <ul>
+                    <li>Fase inicial: pendulum y movilidad pasiva asistida sin pinzamiento</li>
+                    <li>Progresión: rotaciones externas con banda elástica suave</li>
+                    <li>Control escapular antes de cargas por encima de la cabeza</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Señales de alarma</h4>
+                    <ul>
+                        <li>Dolor punzante al levantar el brazo lateralmente</li>
+                        <li>Pérdida importante de movilidad tras un traumatismo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-esguince" role="dialog" aria-modal="true" aria-labelledby="modal-es-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-es-title">Esguince de tobillo</h2>
+            <div class="modal-text">
+                <h3>En niños y adolescentes</h3>
+                <ul>
+                    <li>Progresión de apoyo según tolerancia y criterio profesional</li>
+                    <li>Equilibrio en una pierna con apoyo cercano</li>
+                    <li>Marcha en línea y cambios de dirección suaves cuando corresponda</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Nota</h4>
+                    <ul>
+                        <li>El dolor intenso al pisar o hinchazón desproporcionada requiere revisión</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-rodilla" role="dialog" aria-modal="true" aria-labelledby="modal-ro-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-ro-title">Rodilla</h2>
+            <div class="modal-text">
+                <h3>Enfoque funcional</h3>
+                <ul>
+                    <li>Control de alineación rodilla–tobillo al bajar escalones</li>
+                    <li>Fortalecimiento de cuádriceps isométrico y corto arco</li>
+                    <li>Estabilidad en sentadilla parcial a pared cuando esté indicado</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Cuidado</h4>
+                    <ul>
+                        <li>Evitar dolor agudo o hinchazón inmediata tras el ejercicio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-postura-ninos" role="dialog" aria-modal="true" aria-labelledby="modal-pn-title" aria-hidden="true">
+        <div class="modal-content">
+            <button type="button" class="close-modal" aria-label="Cerrar">&times;</button>
+            <h2 id="modal-pn-title">Postura y pantallas</h2>
+            <div class="modal-text">
+                <h3>Hábitos</h3>
+                <ul>
+                    <li>Limitar tiempo continuo sentado; alternar con juego motor</li>
+                    <li>Tablet o libro apoyado, no solo con el cuello flexionado</li>
+                    <li>Refuerzo positivo más que correcciones constantes</li>
+                </ul>
+                <div class="additional-info">
+                    <h4>Ejercicios lúdicos</h4>
+                    <ul>
+                        <li>«Puente» suave, animal walk, juegos de equilibrio supervisados</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/hero-video.js"></script>
+    <script src="js/nav-menu.js"></script>
+    <script src="js/pages/tips.js"></script>
+</body>
+</html>
