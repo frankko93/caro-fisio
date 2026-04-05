@@ -100,6 +100,50 @@ document.addEventListener('DOMContentLoaded', function () {
     buildDots();
     goTo(0);
 
+    var touchStartX = null;
+    var touchStartY = null;
+    viewport.addEventListener(
+        'touchstart',
+        function (e) {
+            if (!e.changedTouches || e.changedTouches.length !== 1) {
+                return;
+            }
+            var t = e.changedTouches[0];
+            touchStartX = t.screenX;
+            touchStartY = t.screenY;
+        },
+        { passive: true }
+    );
+    viewport.addEventListener(
+        'touchend',
+        function (e) {
+            if (touchStartX == null || touchStartY == null || !e.changedTouches || e.changedTouches.length !== 1) {
+                touchStartX = null;
+                touchStartY = null;
+                return;
+            }
+            var t = e.changedTouches[0];
+            var dx = t.screenX - touchStartX;
+            var dy = t.screenY - touchStartY;
+            touchStartX = null;
+            touchStartY = null;
+            if (Math.abs(dx) < 52) {
+                return;
+            }
+            if (Math.abs(dx) < Math.abs(dy) * 1.15) {
+                return;
+            }
+            if (dx < 0) {
+                goTo(current + 1);
+            } else {
+                goTo(current - 1);
+            }
+            stopAutoplay();
+            startAutoplay();
+        },
+        { passive: true }
+    );
+
     window.requestAnimationFrame(function () {
         window.requestAnimationFrame(function () {
             updateTrack();

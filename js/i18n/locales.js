@@ -114,7 +114,7 @@
                 }
             ],
             pathFlow: {
-                hint: 'Desplazate hacia abajo para activar cada etapa. Si hay varias, deslizá horizontalmente para verlas todas.'
+                hint: 'Deslizá la página hacia abajo para ver cada etapa de la línea de tiempo. Si hay varias tarjetas, deslizá la fila en horizontal.'
             },
             expSection: {
                 eyebrow: 'Trayectoria',
@@ -326,7 +326,7 @@
                 }
             ],
             pathFlow: {
-                hint: 'Scorri verso il basso per attivare ogni fase. Se sono più di una, scorri in orizzontale per vederle tutte.'
+                hint: 'Scorri la pagina verso il basso per ogni fase della timeline. Con più schede, scorri la fila in orizzontale.'
             },
             expSection: {
                 eyebrow: 'Percorso',
@@ -537,7 +537,7 @@
                 }
             ],
             pathFlow: {
-                hint: 'Scroll down to activate each stage. If there are several, swipe horizontally to see them all.'
+                hint: 'Scroll the page down to move through each timeline step. If there are several cards, swipe the row sideways.'
             },
             expSection: {
                 eyebrow: 'Path',

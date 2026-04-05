@@ -79,6 +79,14 @@ document.addEventListener('DOMContentLoaded', function () {
             step.classList.toggle('is-inview', i === idx);
         });
 
+        var progressHost = flow.querySelector('[data-path-flow-progress]');
+        if (progressHost) {
+            var dots = progressHost.querySelectorAll('.path-flow__progress-dot');
+            dots.forEach(function (dot, i) {
+                dot.classList.toggle('is-active', i === idx);
+            });
+        }
+
         if (steps[idx]) {
             var instant = options && options.instantRecenter;
             var isFirstApply = prevIdx === undefined;
@@ -124,6 +132,16 @@ document.addEventListener('DOMContentLoaded', function () {
         pin.style.setProperty('--path-flow-pin-steps', String(Math.max(1, n)));
 
         flow.classList.add('path-flow--enhanced');
+
+        var progressHost = flow.querySelector('[data-path-flow-progress]');
+        if (progressHost && n > 0) {
+            progressHost.innerHTML = '';
+            for (var pi = 0; pi < n; pi += 1) {
+                var dot = document.createElement('span');
+                dot.className = 'path-flow__progress-dot';
+                progressHost.appendChild(dot);
+            }
+        }
 
         if ('IntersectionObserver' in window) {
             var io = new IntersectionObserver(
